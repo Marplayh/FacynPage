@@ -1,0 +1,35 @@
+/* Estilizando o rodapé */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: linear-gradient(var(--color1), var(--color3), var(--color1));
+}
+
+
+.social-media {
+    display: flex;
+    gap: 10px; 
+}
+
+.social-media .icon {
+    font-size: 24px; 
+    color: #000; 
+    transition: color 0.3s ease-in-out;
+}
+
+.social-media .icon:hover {
+    color: #1a73e8; 
+}
+
+/* Estilizando a seção de logo */
+.logo-area .logo {
+    width: 100px; 
+    height: auto; 
+}
+
+
+.contacts p {
+    margin: 5px 0; 
+}

@@ -1,0 +1,19 @@
+.social-media-icons {
+    position: fixed;
+    top: 50%; /* Centraliza verticalmente */
+    right: 20px; /* Espaço do lado direito */
+    transform: translateY(-50%); /* Centraliza verticalmente */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Espaçamento entre os ícones */
+}
+
+.icon {
+    font-size: 24px; /* Tamanho dos ícones */
+    color: black; /* Cor dos ícones */
+    cursor: pointer; /* Cursor em forma de mão ao passar o mouse sobre os ícones */
+}
+
+.icon:hover {
+    color: gray; /* Cor dos ícones ao passar o mouse */
+}
